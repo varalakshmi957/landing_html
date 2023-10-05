@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/img5.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-left: 6%;
+    padding-right: 6%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    transition: 0.5s;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    
+}
+nav ul li:hover{
+    border-bottom: 1px solid #fff;
+    
+}
+
+
+.row{
+    display: flex;
+    height: 500px;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+} 
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: #A3C8DB;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 12px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    
+    background-position: center;
+    background-size: cover;
+    transition :0.5s;
+}
+.card1{
+    background-image: url(images/img2.jpg);
+}
+.card2{
+    background-image: url(images/img6.jpg);
+}
+.card3{
+    background-image: url(images/pic-1.png);
+}
+.card4{
+    background-image: url(images/img7.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.About{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/img3.png');
+    background-position: center;
+    background-size: cover;
+    padding-left: 6%;
+    padding-right: 6%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.content{
+    text-align: center;
+    font-size: 12spx;
+    
+}
+
+ 
+.About .box{
+    
+    padding: 34px;
+    
+    width: 100%;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+    border: 4px solid snow;
+    outline: none;
+    background: transparent;
+    border-radius: 12px;
+}
+
+.About .box h2{
+    color: rgb(245, 206, 51);
+    font-size: 2em; 
+    text-decoration: underline;
+    
+    text-transform: uppercase;
+}
+
+.contact{
+    position: relative;
+}
+.contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  
+    color: whitesmoke;
+    background: url(images/img7.jpg)no-repeat center center/cover;
+}
+.contactus input,
+.contactus textarea{
+width: 100%;
+padding: 0.5rem;
+border-radius: 5px;
+font-size: 1.1rem;
+}
+.contactus{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 34px;
+}
+.contactus form{
+width: 40%;
+}
+.contactus label{
+font-size: 1.3rem;
+font-family:'Times New Roman', Times, serif;
+}
+.contact h1{
+font-size: 2.7rem;
+    padding: 12px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+.btn{
+    border-radius: 8px;
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+    padding: auto;
+    align-items: center;
+    display: flex;
+}
